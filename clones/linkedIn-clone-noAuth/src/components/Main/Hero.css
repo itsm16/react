@@ -1,0 +1,17 @@
+.hero {
+    height: calc(100vh - 45px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px; /* Adjusted margin to account for the fixed header */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: calc(100vh - 90px);
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px; /* Adjusted margin to account for the fixed header */
+    }
+}
